@@ -53,7 +53,7 @@ render text: "Score: " + str(score)
 antialias: True
 color: GREEN
 background: DARKGREEN
-rect location: topleft = (10, 10)
+rect location: topleft = (10, 10) 
 '''
 score_text = font.render("Score: " + str(score), True, GREEN, DARKGREEN)
 score_rect = score_text.get_rect()
